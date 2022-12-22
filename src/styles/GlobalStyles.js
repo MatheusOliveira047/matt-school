@@ -1,4 +1,7 @@
-*{
+import { createGlobalStyle } from 'styled-components';
+
+export default createGlobalStyle`
+  *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -107,9 +110,6 @@ body::-webkit-scrollbar-thumb {
   background-color: #001C43;
   color: #fff;
 }
-textarea {
-  resize: none;
-}
 .btn.btn-outline:hover{
   background-color: #000;
 }
@@ -130,23 +130,15 @@ button[disabled]{
   border-radius: 5px;
 }
 
-
-
 @media (max-width: 800px){
-  body{
-    overflow-x: hidden;
-  }
   form{
     max-width: 70%;
   }
 }
-
-
 @media (max-width: 500px){
   form{
     max-width: 85%;
   }
-  body{
-  overflow-x: hidden;
-  }
 }
+
+`
