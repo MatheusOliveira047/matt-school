@@ -15,7 +15,7 @@ export const Header = styled.header`
       color: #fff;
       font-weight: bold;
       font-size: 1.8em;
-      @media (max-width:600px){
+      @media (max-width:700px){
         font-size: 1.1em;
       }
       @media (max-width:400px){

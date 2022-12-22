@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react'
 
-import { useParams, NavLink } from 'react-router-dom'
+import { useParams, NavLink} from 'react-router-dom'
 
-import {ContainerAulas,NavBarAulas,Boxvideo} from './styled'
+import {ContainerAulas,NavBarAulas,Boxvideo,Menu} from './styled'
 
 import { cursos } from '../../Cursos/cursos'
 
@@ -17,8 +17,14 @@ const Aula = ()=>{
   // state do title do curso
   const [title,setTitle] = useState('')
 
+  const [menuRes,setMenuRes] = useState(false)
+
 
   const {cursoParams,id} = useParams()
+
+  const handleMenuRes = ()=>{
+    setMenuRes(!menuRes)
+  }
 
 
 
@@ -47,17 +53,23 @@ const Aula = ()=>{
   return(
     <ContainerAulas>
 
-      <NavBarAulas>
+      <NavBarAulas isMenu={menuRes}>
         
         { navBarCurso.map(aulas=> aulas.map(aul=>(
           <ul key={aul.id}>
-            <li><NavLink to={`/aula/${cursoParams}/${aul.id}`} ><span>{aul.title}</span></NavLink></li>
+            <li><NavLink onClick={handleMenuRes} to={`/aula/${cursoParams}/${aul.id}`} ><span>{aul.title}</span></NavLink></li>
           </ul>
           )))}
 
       </NavBarAulas>
 
       <Boxvideo>
+        <Menu onClick={handleMenuRes}>
+          <div></div>
+          <div></div>
+          <div></div>
+        </Menu>
+        
         <h1>{title}</h1>
 
         { aula.map(a => a.map(at=>(
