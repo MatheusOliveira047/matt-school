@@ -16,13 +16,31 @@ export const About = styled.div`
   }
   h1{
     font-size: 2.4em;
+    @media (max-width:700px){
+        font-size: 1.8em;
+      }
+      @media (max-width:400px){
+        font-size: 1.4em;
+      }
   }
   h3{
     font-size: 1.8em;
+    @media (max-width:700px){
+        font-size: 1.4em;
+      }
+    @media (max-width:400px){
+        font-size: 1em;
+      }
   }
   p{
     text-align: left;
     font-size: 1.5em;
+    @media (max-width:700px){
+        font-size: 1.1em;
+      }
+      @media (max-width:400px){
+        font-size: 0.8em;
+      }
   }
   a{
   padding: 15px 30px;

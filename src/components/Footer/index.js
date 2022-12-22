@@ -18,6 +18,22 @@ const FooterComponent = styled.footer`
   justify-content: center;
   background-color: #003b8e;
   color: #fff;
+  h3{
+    @media (max-width:600px){
+        font-size: 1em;
+      }
+      @media (max-width:400px){
+        font-size: 0.7em;
+      }
+  }
+  p{
+    @media (max-width:600px){
+        font-size: 0.8em;
+      }
+      @media (max-width:400px){
+        font-size: 0.6em;
+      }
+  }
 `
 
 export default Footer
