@@ -1,8 +1,11 @@
-import styles from './Login.module.css'
+import { useState, useEffect } from 'react'
+
+import { Link } from 'react-router-dom'
 
 import { useAuthentication } from '../../hooks/useAuthetication'
-import { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
+
+import {ContainerLogin} from './styled'
+import { Error } from '../../styles/Components'
 
 const Login = () => {
   const [email,setEmail] = useState('')
@@ -34,7 +37,7 @@ const Login = () => {
 
   
   return (
-    <div className={styles.login}>
+    <ContainerLogin>
       <h1>Login</h1>
       <p>Ainda não possui conta ? Faça seu cadastro <Link to={"/register"}>Aqui</Link> </p>
       <form onSubmit={handleFormLogin}>
@@ -63,11 +66,11 @@ const Login = () => {
       </label>
       
      {loading ? (<button className='btn' disabled> Aguarde...</button>) : (<button className='btn'> Login</button>)}
-      {error && <p className='error'>{error}</p>}
+      {error && <Error>{error}</Error>}
 
 
       </form>
-    </div>
+    </ContainerLogin>
   )
 }
 

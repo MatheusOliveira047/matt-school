@@ -1,4 +1,6 @@
-import { FooterComponent } from './styled'
+import styled from 'styled-components';
+
+
 const Footer = () => {
   return (
    <FooterComponent>
@@ -7,5 +9,15 @@ const Footer = () => {
    </FooterComponent>
   )
 }
+
+const FooterComponent = styled.footer`
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #003b8e;
+  color: #fff;
+`
 
 export default Footer

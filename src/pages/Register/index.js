@@ -1,10 +1,11 @@
-import styles from './Register.module.css'
-
-import { useAuthentication } from '../../hooks/useAuthetication'
+import { useState,useEffect } from 'react'
 
 import { Link } from 'react-router-dom'
 
-import { useState,useEffect } from 'react'
+import { useAuthentication } from '../../hooks/useAuthetication'
+
+import { RegisterContainer } from './styled'
+import { Error } from '../../styles/Components'
 
 const Register = () => {
   const [displayName, setDisplayName] = useState('')
@@ -46,7 +47,7 @@ const Register = () => {
 
 
   return (
-    <div className={styles.register}>
+    <RegisterContainer>
       <h1>Cadastre-se para acessar a Aréa de Cursos</h1>
       <p>Já tem conta ? Faça login <Link to={"/login"}>Aqui</Link> </p>
       <form onSubmit={handleSubmit}>
@@ -95,11 +96,11 @@ const Register = () => {
         />
       </label>
      {loading ? (<button className='btn' disabled> Aguarde...</button>) : (<button className='btn'> Cadastrar</button>)}
-      {error && <p className='error'>{error}</p>}
+      {error && <Error>{error}</Error>}
 
 
       </form>
-    </div>
+    </RegisterContainer>
   )
 }
 
