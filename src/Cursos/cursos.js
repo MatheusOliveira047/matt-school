@@ -432,5 +432,221 @@ export const cursos = [
       title: 'Fim do Módulo 2: certificados liberados',
     },
     ]
+  },
+  {
+    id:3,
+    curso:"html-css-03",
+    title: "Curso de HTML5 e CSS3 - Modúlo 03",
+    aulas:[
+      {
+        id:1,
+        src: "https://www.youtube.com/embed/ofFgnDtn_1c",
+        title: 'O que vamos aprender no módulo 3? ',
+      },
+      {
+        id:2,
+        src: "https://www.youtube.com/embed/GDGMf2bnHlE",
+        title: 'O que é Git e GitHub?',
+      },
+      {
+        id:3,
+        src: "https://www.youtube.com/embed/NgWExh3bswg",
+        title: 'Instalando Git e GitHub no PC',
+      },
+      {
+        id:4,
+        src: "https://www.youtube.com/embed/1QTi8nIlK1o",
+        title: 'Criando conta no GitHub ',
+      },
+      {
+        id:5,
+        src: "https://www.youtube.com/embed/P0Hvrf8T3zo",
+        title: 'Primeiro repositório git e GitHub',
+      },
+      {
+        id:6,
+        src: "https://www.youtube.com/embed/Sbcu_GuySjo",
+        title: 'Gerenciando Repositórios GitHub',
+      },
+      {
+        id:7,
+        src: "https://www.youtube.com/embed/_jI3782DGDc",
+        title: 'Hospedando site gratuitamente com GitHub Pages',
+      },
+      {
+        id:8,
+        src: "https://www.youtube.com/embed/ejQwG2cvWxg",
+        title: 'Manutenção em sites hospedados no GitHub Pages',
+      },
+      {
+        id:9,
+        src: "https://www.youtube.com/embed/g5orqzMzwkY",
+        title: 'Recursos Sociais do GitHub',
+      },
+      {
+        id:10,
+        src: "https://www.youtube.com/embed/sRBSr9X5nAQ",
+        title: 'Clonando Repositórios GitHub',
+      },
+      {
+        id:11,
+        src: "https://www.youtube.com/embed/c-MATEcIuPQ",
+        title: 'GitHub em vários PCs',
+      },
+      {
+        id:12,
+        src: "https://www.youtube.com/embed/sms5H5cKDy4",
+        title: 'Download das imagens do capítulo',
+      },
+      {
+        id:13,
+        src: "https://www.youtube.com/embed/9hV5oXi80-A",
+        title: 'Colocando uma imagem de fundo no seu site ',
+      },
+      {
+        id:14,
+        src: "https://www.youtube.com/embed/_5KoMUMCTG0",
+        title: 'Imagens que se repetem no fundo do site',
+      },
+      {
+        id:15,
+        src: "https://www.youtube.com/embed/RpcmGqvzWxQ",
+        title: 'Configurando a posição da imagem no fundo do site',
+      },
+      {
+        id:16,
+        src: "https://www.youtube.com/embed/lNaoi5AUCsc",
+        title: 'Mudando o tamanho da imagem de fundo do site ',
+      },
+      {
+        id:17,
+        src: "https://www.youtube.com/embed/PzJwwA6LVts",
+        title: 'background-attachment e shorthand ',
+      },
+      {
+        id:18,
+        src: "https://www.youtube.com/embed/-w0Qo_qQiRg",
+        title: 'Centralização vertical de caixas',
+      },
+      {
+        id:19,
+        src: "https://www.youtube.com/embed/cz7AoKGcwlY",
+        title: 'Um projeto completo usando HTML e CSS',
+      },
+      {
+        id:20,
+        src: "https://www.youtube.com/embed/V8kF1WZisbg",
+        title: 'Download e organização dos arquivos',
+      },
+      {
+        id:21,
+        src: "https://www.youtube.com/embed/e-HB90dx_CI",
+        title: 'Ajustes no HTML do projeto',
+      },
+      {
+        id:22,
+        src: "https://www.youtube.com/embed/82vIYws5wF8",
+        title: 'Ajustes no CSS do projeto',
+      },
+      {
+        id:23,
+        src: "https://www.youtube.com/embed/0bBBaHNkzVE",
+        title: 'Colocando as fontes ao projeto',
+      },
+      {
+        id:24,
+        src: "https://www.youtube.com/embed/UnYur3GqcDc",
+        title: 'Imagens com efeito Parallax simples',
+      },
+      {
+        id:25,
+        src: "https://www.youtube.com/embed/78hBqKLaWCU",
+        title: 'Hospedando o Projeto Cordel gratuitamente',
+      },
+      {
+        id:26,
+        src: "https://www.youtube.com/embed/9IF4xvg5rWI",
+        title: 'Ainda podemos usar tabelas em HTML?',
+      },
+      {
+        id:27,
+        src: "https://www.youtube.com/embed/lIiZu-94PBk",
+        title: 'Sua primeira tabela em HTML',
+      },
+      {
+        id:28,
+        src: "https://www.youtube.com/embed/djvX6p9l-Rk",
+        title: 'Alinhando o conteúdo em tabelas',
+      },
+      {
+        id:29,
+        src: "https://www.youtube.com/embed/XmrNuqmmckM",
+        title: 'Aprendendo a trabalhar com tabelas grandes',
+      },
+      {
+        id:30,
+        src: "https://www.youtube.com/embed/ZnjU3PzhGi0",
+        title: 'Caption e Escopo de títulos em tabelas',
+      },
+      {
+        id:31,
+        src: "https://www.youtube.com/embed/IYUiFRE5hpI",
+        title: 'Efeito Zebrado na tabela com HTML e CSS;',
+      },
+      {
+        id:32,
+        src: "https://www.youtube.com/embed/k277B58kC9c",
+        title: 'Cabeçalho fixo em tabelas grandes',
+      },
+      {
+        id:33,
+        src: "https://www.youtube.com/embed/olZgL09uDAU",
+        title: 'Mesclagem de células',
+      },
+      {
+        id:34,
+        src: "https://www.youtube.com/embed/MnznvoNuy-I",
+        title: 'Desafios (parte 1) ',
+      },
+      {
+        id:35,
+        src: "https://www.youtube.com/embed/JJXLr02Gx_c",
+        title: 'Exemplo de tabela completa',
+      },
+      {
+        id:36,
+        src: "https://www.youtube.com/embed/muKp1-jcs3Q",
+        title: 'Escopos de grupo',
+      },
+      {
+        id:37,
+        src: "https://www.youtube.com/embed/V2gVaqTSRmo",
+        title: 'Desafios (parte 2)',
+      },
+      {
+        id:38,
+        src: "https://www.youtube.com/embed/1Ro7rjINNb0",
+        title: 'Agrupando Colunas com colgroup',
+      },
+      {
+        id:39,
+        src: "https://www.youtube.com/embed/-0CgGstWMcA",
+        title: 'Tabelas responsivas',
+      },
+      {
+        id:40,
+        src: "https://www.youtube.com/embed/XJ10-IKH8ig",
+        title: 'Fim do Módulo 3',
+      },
+    ]
+  },
+  {
+    id:4,
+    curso:"html-css-04",
+    title: "Curso de HTML5 e CSS3 - Modúlo 04",
+    aulas:[
+
+    ]
+  
   }
 ]

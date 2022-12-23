@@ -20,6 +20,10 @@ const Dashboard = () => {
             <h3>Curso de Html5 e Css3 - Modúlo 02</h3>
             <Link to={"/aula/html-css-02/1"}><img src='/images/html2.jpeg' alt='curso de html e css 02'/></Link>
           </div>
+          <div>
+            <h3>Curso de Html5 e Css3 - Modúlo 03</h3>
+            <Link to={"/aula/html-css-03/1"}><img src='/images/html3.png' alt='curso de html e css 02'/></Link>
+          </div>
         </ContainerCursos>
       </div>
     </DashboardContainer>
