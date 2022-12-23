@@ -38,6 +38,24 @@ const Dashboard = () => {
           </div>
         </ContainerCursos>
       </div>
+
+      <div>
+        <h2>JAVASCRIPT</h2>
+        <ContainerCursos>
+        <div>
+            <h3>Curso de JavaScript e ECMAScript</h3>
+            <Link to={"/aula/javascript-ecmascript/1"}><img src='/images/js2.png' alt='curso de html e css 01'/></Link>
+          </div>
+        <div>
+            <h3>Curso de JavaScript</h3>
+            <Link to={"/aula/javascriptdicas/1"}><img src='/images/js1.png' alt='curso de html e css 01'/></Link>
+          </div>
+        <div>
+            <h3>Curso de JavaScript - Hora de Codar</h3>
+            <Link to={"/aula/javascript-hora-de-codar/1"}><img src='/images/js3.png' alt='curso de html e css 01'/></Link>
+          </div>
+        </ContainerCursos>
+      </div>
     </DashboardContainer>
   )
 }

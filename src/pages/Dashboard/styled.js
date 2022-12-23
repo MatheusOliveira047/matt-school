@@ -44,6 +44,9 @@ export const ContainerCursos = styled.div`
   justify-content: space-around;
   flex-wrap: wrap;
   width: 100vw;
+  border-bottom: 3px solid #000;
+  padding-bottom: 30px;
+
   div{
     padding: 10px 0;
     width: 30%;

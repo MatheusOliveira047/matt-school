@@ -1162,5 +1162,378 @@ export const cursos = [
         title:"Aula 10 - Div - criando divisões no documento e caixas personalizadas"
       },
     ]
-},
+  },
+  {
+    id:7,
+    curso:"javascriptdicas",
+    title: "Curso de Javascript - Dicas para Devs",
+    aulas:[
+      {
+        id:1,
+        src:"https://www.youtube.com/embed/g08WcKOHeK0",
+        title:"Introdução"
+      },
+      {
+        id:2,
+        src:"https://www.youtube.com/embed/c_ZCzdMUlxk",
+        title:"Variáveis & Tipos de Dados"
+      },
+      {
+        id:3,
+        src:"https://www.youtube.com/embed/hxGIfI6n6yE",
+        title:"Listas"
+      },
+      {
+        id:4,
+        src:"https://www.youtube.com/embed/mgnSSwgTiFU",
+        title:"Map, Filter & Reduce"
+      },
+      {
+        id:5,
+        src:"https://www.youtube.com/embed/V4-KMCerTUU",
+        title:"Objetos"
+      },
+      {
+        id:6,
+        src:"https://www.youtube.com/embed/BVrSRTJffxM",
+        title:"JSON"
+      },
+      {
+        id:7,
+        src:"https://www.youtube.com/embed/_VDaHe0HlFI",
+        title:"Loops"
+      },
+      {
+        id:8,
+        src:"https://www.youtube.com/embed/yYc1HQ7pRIo",
+        title:"Condicionais"
+      },
+      {
+        id:9,
+        src:"https://www.youtube.com/embed/5JZ84dalq9I",
+        title:"Conceito de Truthy & Falsy"
+      },
+      {
+        id:10,
+        src:"https://www.youtube.com/embed/y-KOA4BcqUk",
+        title:"Funções & Arrow Functions"
+      },
+      {
+        id:11,
+        src:"https://www.youtube.com/embed/_RKKKDlqi2Q",
+        title:"Programação Orientada a Objetos (POO)"
+      },
+      {
+        id:12,
+        src:"https://www.youtube.com/embed/csf3dyY4GGg",
+        title:"Selecionando Elementos do DOM"
+      },
+      {
+        id:13,
+        src:"https://www.youtube.com/embed/yDWLxaRQl5Q",
+        title:"Manipulando Elementos do DOM"
+      },
+      {
+        id:14,
+        src:"https://www.youtube.com/embed/I-seGqiRWBI",
+        title:"Eventos"
+      },
+      {
+        id:15,
+        src:"https://www.youtube.com/embed/KtTk1C0BpN4",
+        title:"Criando & Validando um Formulário"
+      },
+      {
+        id:16,
+        src:"https://www.youtube.com/embed/BPf8HSvMSzI",
+        title:"Conclusão"
+      },
+    ]
+  },
+  {
+    id:8,
+    curso:"javascript-ecmascript",
+    title: "Curso de JavaScript e ECMAScript",
+    aulas:[
+      {
+        id:1,
+        src:"https://www.youtube.com/embed/BXqUH86F-kA",
+        title:"Curso Grátis de JavaScript Moderno"
+      },
+      {
+        id:2,
+        src:"https://www.youtube.com/embed/uzEhd3Lugik",
+        title:"Módulo A - Conhecendo o JavaScript"
+      },
+      {
+        id:3,
+        src:"https://www.youtube.com/embed/Ptbk2af68e8",
+        title:"O que o JavaScript é capaz de fazer? "
+      },
+      {
+        id:4,
+        src:"https://www.youtube.com/embed/rUTKomc2gG8",
+        title:"JavaScript como chegamos até aqui?"
+      },
+      {
+        id:5,
+        src:"https://www.youtube.com/embed/FjT97HVT5g8",
+        title:"Módulo B - Comandos Básicos do JavaScript"
+      },
+      {
+        id:6,
+        src:"https://www.youtube.com/embed/FdePtO5JSd0",
+        title:"Dando os primeiros passos"
+      },
+      {
+        id:7,
+        src:"https://www.youtube.com/embed/OmmJBfcMJA8",
+        title:"Criando o seu primeiro script"
+      },
+      {
+        id:8,
+        src:"https://www.youtube.com/embed/Vbabsye7mWo",
+        title:"Variáveis e Tipos Primitivos"
+      },
+      {
+        id:9,
+        src:"https://www.youtube.com/embed/OJgu_KCCUSY",
+        title:"Tratamento de dados"
+      },
+      {
+        id:10,
+        src:"https://www.youtube.com/embed/hZG9ODUdxHo",
+        title:"Operadores (Parte1)"
+      },
+      {
+        id:11,
+        src:"https://www.youtube.com/embed/BP63NhITvao",
+        title:"Operadores (Parte 2)"
+      },
+      {
+        id:12,
+        src:"https://www.youtube.com/embed/H80nCKs9c2k",
+        title:"Módulo C - Entendendo o DOM"
+      },
+      {
+        id:13,
+        src:"https://www.youtube.com/embed/WWZX8RWLxIk",
+        title:"Introdução ao DOM"
+      },
+      {
+        id:14,
+        src:"https://www.youtube.com/embed/wWnBB-mZIvY",
+        title:"Eventos DOM"
+      },
+      {
+        id:15,
+        src:"https://www.youtube.com/embed/uPFasdmZHJc",
+        title:"Módulo D - Condições em JavaScript"
+      },
+      {
+        id:16,
+        src:"https://www.youtube.com/embed/cOdG4eACN2A",
+        title:"Condições (Parte 1)"
+      },
+      {
+        id:17,
+        src:"https://www.youtube.com/embed/EEStcIe8rAM",
+        title:"Condições (Parte 2)"
+      },
+      {
+        id:18,
+        src:"https://www.youtube.com/embed/3emz6rpcJyA",
+        title:"Módulo E - Repetições em JavaScript"
+      },
+      {
+        id:19,
+        src:"https://www.youtube.com/embed/5rZqYPKIwkY",
+        title:"Repetições (Parte 1) "
+      },
+      {
+        id:20,
+        src:"https://www.youtube.com/embed/eX-lkN_Zahc",
+        title:"Repetições (Parte 2)"
+      },
+      {
+        id:21,
+        src:"https://www.youtube.com/embed/5m4UhZd-Les",
+        title:"Módulo F - Avançando os estudos em JavaScript"
+      },
+      {
+        id:22,
+        src:"https://www.youtube.com/embed/XdkW62tkAgU",
+        title:"Variáveis Compostas"
+      },
+      {
+        id:23,
+        src:"https://www.youtube.com/embed/mc3TKp2XzhI",
+        title:"Funções"
+      },
+      {
+        id:24,
+        src:"https://www.youtube.com/embed/roP93FA-NgU",
+        title:"Próximos Passos"
+      },
+      {
+        id:25,
+        src:"https://www.youtube.com/embed/b2K7eo5Jdj8",
+        title:"Exercícios JavaScript (Parte 1)"
+      },
+      {
+        id:26,
+        src:"https://www.youtube.com/embed/UXSWgnbSHxs",
+        title:"Exercícios JavaScript (Parte 2)"
+      },
+      {
+        id:27,
+        src:"https://www.youtube.com/embed/f5es-PpaUI8",
+        title:"Exercícios JavaScript (Parte 3)"
+      },
+      {
+        id:28,
+        src:"https://www.youtube.com/embed/6tyHypeY4-8",
+        title:"Exercícios JavaScript (Parte 4)"
+      },
+      {
+        id:29,
+        src:"https://www.youtube.com/embed/oMNbc_LFz8w",
+        title:"Exercícios JavaScript (Parte 5)"
+      },
+      {
+        id:30,
+        src:"https://www.youtube.com/embed/mfHAQ-4Rspw",
+        title:"Exercícios JavaScript (Parte 6)"
+      },
+      {
+        id:31,
+        src:"https://www.youtube.com/embed/vEOEZ03ZyiE",
+        title:"Exercícios JavaScript (Parte 7)"
+      },
+      {
+        id:32,
+        src:"https://www.youtube.com/embed/slLoLLCd-k0",
+        title:"Exercícios JavaScript (Parte 8)"
+      },
+    ]
+  },
+  {
+    id:9,
+    curso:"javascript-hora-de-codar",
+    title: "Curso de Javascript - Hora de Codar",
+    aulas:[
+      {
+        id:1,
+        src:"https://www.youtube.com/embed/TkD0QMyBa28",
+        title:"Introdução"
+      },
+      {
+        id:2,
+        src:"https://www.youtube.com/embed/rQseLH4LDXQ",
+        title:"Primeiro programa"
+      },
+      {
+        id:3,
+        src:"https://www.youtube.com/embed/xmk1PjuYHIw",
+        title:"Como inserir código JavaScript em uma página web"
+      },
+      {
+        id:4,
+        src:"https://www.youtube.com/embed/oN7L8oQWyPY",
+        title:"Particularidades da linguagem JavaScript"
+      },
+      {
+        id:5,
+        src:"https://www.youtube.com/embed/sIXUNUqnoXI",
+        title:"Declarando variáveis"
+      },
+      {
+        id:6,
+        src:"https://www.youtube.com/embed/7Isq6ekQT1k",
+        title:"Tipos de dados"
+      },
+      {
+        id:7,
+        src:"https://www.youtube.com/embed/59PcA9YsoQ0",
+        title:"Como utilizar strings"
+      },
+      {
+        id:8,
+        src:"https://www.youtube.com/embed/Otd2KA4LrzU",
+        title:"Boolean"
+      },
+      {
+        id:9,
+        src:"https://www.youtube.com/embed/AoSTIPwYXWc",
+        title:"null e undefined"
+      },
+      {
+        id:10,
+        src:"https://www.youtube.com/embed/x89T_rGiFiY",
+        title:"Tipos de dados Objeto"
+      },
+      {
+        id:11,
+        src:"https://www.youtube.com/embed/bDDpv-BL2v0",
+        title:" Arrays"
+      },
+      {
+        id:12,
+        src:"https://www.youtube.com/embed/DGvRhPgsuMo",
+        title:"Operador condicional if"
+      },
+      {
+        id:13,
+        src:"https://www.youtube.com/embed/I9QXIDcxkIE",
+        title:"Operadores de comparação"
+      },
+      {
+        id:14,
+        src:"https://www.youtube.com/embed/G95Se9RNhoA",
+        title:"Else if e else"
+      },
+      {
+        id:15,
+        src:"https://www.youtube.com/embed/jbs4087iV7k",
+        title:"Comparação de valor e tipo de dado (=== e !==)"
+      },
+      {
+        id:16,
+        src:"https://www.youtube.com/embed/jQgKM0L5DYs",
+        title:"Operador lógico AND (&&)"
+      },
+      {
+        id:17,
+        src:"https://www.youtube.com/embed/Ie5GRz7QupY",
+        title:"Operador lógico OR (||)"
+      },
+      {
+        id:18,
+        src:"https://www.youtube.com/embed/CHuuY1DeIa4",
+        title:"Operador lógico NOT (!)"
+      },
+      {
+        id:19,
+        src:"https://www.youtube.com/embed/R-jwbPkJZvA",
+        title:"Estrutura de repetição while"
+      },
+      {
+        id:20,
+        src:"https://www.youtube.com/embed/uL8-YwULUHA",
+        title:"Operadores de atribuição"
+      },
+      {
+        id:21,
+        src:"https://www.youtube.com/embed/wiUUASSieOE",
+        title:" for (estrutura de repetição - loop)"
+      },
+      {
+        id:22,
+        src:"https://www.youtube.com/embed/1q05l_Vgukg",
+        title:"break e continue"
+      },
+    ]
+  },
+
+
 ]
