@@ -24,6 +24,18 @@ const Dashboard = () => {
             <h3>Curso de Html5 e Css3 - Modúlo 03</h3>
             <Link to={"/aula/html-css-03/1"}><img src='/images/html3.png' alt='curso de html e css 02'/></Link>
           </div>
+          <div>
+            <h3>Curso de Html5 e Css3 - Modúlo 04</h3>
+            <Link to={"/aula/html-css-04/1"}><img src='/images/html4.png' alt='curso de html e css 02'/></Link>
+          </div>
+          <div>
+            <h3>Curso de Html e css - Thiago Medeiros</h3>
+            <Link to={"/aula/html-css-thiago-medeiros/1"}><img src='/images/html5.png' alt='curso de html e css 02'/></Link>
+          </div>
+          <div>
+            <h3>Curso de Html5 e Css3 - HoraDeCodar</h3>
+            <Link to={"/aula/html-css-hora-de-codar/1"}><img src='/images/html6.png' alt='curso de html e css 02'/></Link>
+          </div>
         </ContainerCursos>
       </div>
     </DashboardContainer>

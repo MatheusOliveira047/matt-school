@@ -645,8 +645,522 @@ export const cursos = [
     curso:"html-css-04",
     title: "Curso de HTML5 e CSS3 - Modúlo 04",
     aulas:[
+      {
+        id:1,
+        src:"https://www.youtube.com/embed/zHKHMmEG9vE",
+        title:"O que vamos aprender no módulo 4?"
+      },
+      {
+        id:2,
+        src:"https://www.youtube.com/embed/GWULnkTnapM",
+        title:"O iframe ainda pode ser usado? "
+      },
+      {
+        id:3,
+        src:"https://www.youtube.com/embed/eAxGt3ObQ24",
+        title:"Configurando iframes"
+      },
+      {
+        id:4,
+        src:"https://www.youtube.com/embed/G8H5jhabq8k",
+        title:"Conteúdo local no iframe"
+      },
+      {
+        id:5,
+        src:"https://www.youtube.com/embed/y6CKgnBYs5E",
+        title:"Navegação no iframe"
+      },
+      {
+        id:6,
+        src:"https://www.youtube.com/embed/8Jb75kIqUQs",
+        title:"Conteúdo no iframe por código "
+      },
+      {
+        id:7,
+        src:"https://www.youtube.com/embed/_bYRQTnFXF8",
+        title:"Inconvenientes do iframe"
+      },
+      {
+        id:8,
+        src:"https://www.youtube.com/embed/mRhjlDN4Ezo",
+        title:"Tornando iframes mais seguros"
+      },
+      {
+        id:9,
+        src:"https://www.youtube.com/embed/dzhJsc1YszU",
+        title:"Dicas para iframes melhores"
+      },
+      {
+        id:10,
+        src:"https://www.youtube.com/embed/hPze5_OYqBw",
+        title:"Criando um projeto do zero"
+      },
+      {
+        id:11,
+        src:"https://www.youtube.com/embed/Rgji4o96ZhA",
+        title:"Vamos começar o projeto"
+      },
+      {
+        id:12,
+        src:"https://www.youtube.com/embed/HUnltyZ9Rxg",
+        title:"Criando a página inicial do projeto"
+      },
+      {
+        id:13,
+        src:"https://www.youtube.com/embed/Gx-zp0aaOto",
+        title:"Posicionando o conteúdo do site"
+      },
+      {
+        id:14,
+        src:"https://www.youtube.com/embed/1kOhJr4DXIg",
+        title:"Criando os botões para redes sociais"
+      },
+      {
+        id:15,
+        src:"https://www.youtube.com/embed/ar5UB2MxraE",
+        title:"Criando as páginas de cada rede social"
+      },
+      {
+        id:16,
+        src:"https://www.youtube.com/embed/z30JMe5Cufs",
+        title:"Personalizando as imagens do projeto"
+      },
+      {
+        id:17,
+        src:"https://www.youtube.com/embed/Wa1Ji2t2gmc",
+        title:"Como criar formulários com HTML5"
+      },
+      {
+        id:18,
+        src:"https://www.youtube.com/embed/MqdSffM1HZc",
+        title:"Usar Label vai melhorar seus formulários"
+      },
+      {
+        id:19,
+        src:"https://www.youtube.com/embed/rcaXavXsWGA",
+        title:"Métodos GET e POST para formulários"
+      },
+      {
+        id:20,
+        src:"https://www.youtube.com/embed/SinNyasc-zU",
+        title:"Criando caixas de texto e de senha"
+      },
+      {
+        id:21,
+        src:"https://www.youtube.com/embed/7P22zubU6i8",
+        title:"Elementos number, month, date e time em formulários HTML"
+      },
+      {
+        id:22,
+        src:"https://www.youtube.com/embed/jX7v3lFdnvg",
+        title:"Compatibilidade com navegadores"
+      },
+      {
+        id:23,
+        src:"https://www.youtube.com/embed/SRMEHklQC4M",
+        title:"Formulários com telefone e e-mail "
+      },
+      {
+        id:24,
+        src:"https://www.youtube.com/embed/iGDHFa4znHE",
+        title:"Checkbox e Radio button em HTML"
+      },
+      {
+        id:25,
+        src:"https://www.youtube.com/embed/acOURIAlB1Q",
+        title:"Elementos color, range e file em HTML"
+      },
+      {
+        id:26,
+        src:"https://www.youtube.com/embed/PFGmSEj2wIo",
+        title:"Select, datalist e textarea em HTML"
+      },
+      {
+        id:27,
+        src:"https://www.youtube.com/embed/8b6K4UQDm7w",
+        title:"Elemento output em formulários HTML"
+      },
+      {
+        id:28,
+        src:"https://www.youtube.com/embed/9rY8V2rvP2o",
+        title:"O que são Media Queries em CSS"
+      },
+      {
+        id:29,
+        src:"https://www.youtube.com/embed/DMYlN21ajtU",
+        title:"Criando um site com versão para impressora"
+      },
+      {
+        id:30,
+        src:"https://www.youtube.com/embed/VGD5Uy1C8Cw",
+        title:"Múltiplas Media Features com CSS"
+      },
+      {
+        id:31,
+        src:"https://www.youtube.com/embed/IRCDwdZLlX4",
+        title:"Seguindo a orientação do dispositivo"
+      },
+      {
+        id:32,
+        src:"https://www.youtube.com/embed/DkA_OQgjjKg",
+        title:"Reunindo tudo em um único CSS"
+      },
+      {
+        id:33,
+        src:"https://www.youtube.com/embed/q6SZKTHUQiw",
+        title:"Mobile First"
+      },
+      {
+        id:34,
+        src:"https://www.youtube.com/embed/wU80w4xbNxQ",
+        title:"Iniciando um site mobile first"
+      },
+      {
+        id:35,
+        src:"https://www.youtube.com/embed/S8YXMqDsbhA",
+        title:"Device breakpoints"
+      },
+      {
+        id:36,
+        src:"https://www.youtube.com/embed/Zp3fnf99kTg",
+        title:"Menu responsivo com HTML5 e CSS3"
+      },
+      {
+        id:37,
+        src:"https://www.youtube.com/embed/67W4NdxW1kw",
+        title:"Configurando o layout do projeto"
+      },
+      {
+        id:38,
+        src:"https://www.youtube.com/embed/Dd6Z3gkud18",
+        title:"Criando um menu hambúrguer"
+      },
+      {
+        id:38,
+        src:"https://www.youtube.com/embed/T1rfhkmcH00",
+        title:"Media Queries para outros dispositivos"
+      },
+      {
+        id:40,
+        src:"https://www.youtube.com/embed/4NB0_DPpjak",
+        title:"Tela de login responsiva só com HTML e CSS"
+      },
+      {
+        id:41,
+        src:"https://www.youtube.com/embed/AKj3L3ouVAk",
+        title:"Versão mobile first da tela de login"
+      },
+      {
+        id:42,
+        src:"https://www.youtube.com/embed/Ec7Vu96wdpA",
+        title:"Outras Media Queries para o projeto"
+      },
+      {
+        id:43,
+        src:"https://www.youtube.com/embed/htekZ2wA7Zo",
+        title:"Criando o formulário de login"
+      },
+      {
+        id:44,
+        src:"https://www.youtube.com/embed/JDS9ZLpoS6E",
+        title:"Aplicando estilo ao formulário de login"
+      },
+      {
+        id:45,
+        src:"https://www.youtube.com/embed/c2PePX8joKc",
+        title:"Finalizando projeto tela de login"
+      },
 
     ]
-  
-  }
+  },
+  {
+      id:5,
+      curso:"html-css-hora-de-codar",
+      title: "Curso de HTML5 e CSS3 - Hora de Codar",
+      
+      aulas:[
+        {
+          id:1,
+          src:"https://www.youtube.com/embed/3a9Qd026DOI",
+          title:"Introdução"
+        },
+        {
+          id:2,
+          src:"https://www.youtube.com/embed/9NZd-CROKhY",
+          title:"Iniciando o projeto e configurações do site"
+        },
+        {
+          id:3,
+          src:"https://www.youtube.com/embed/dXoZxO10ibE",
+          title:"Criando a barra de navegação do site"
+        },
+        {
+          id:4,
+          src:"https://www.youtube.com/embed/FJsAw19O-ug",
+          title:"Criando o banner principal"
+        },
+        {
+          id:5,
+          src:"https://www.youtube.com/embed/HNHnOoHeKE0",
+          title:"Criando a seção de últimas vagas"
+        },
+        {
+          id:6,
+          src:"https://www.youtube.com/embed/YMjHeJD2HW0",
+          title:"CSS da seção de últimas vagas"
+        },
+        {
+          id:7,
+          src:"https://www.youtube.com/embed/16k7WfQLbQg",
+          title:"HTML da seção de enviar vagas"
+        },
+        {
+          id:8,
+          src:"https://www.youtube.com/embed/VjiiRQINRGI",
+          title:"CSS da seção de enviar vagas"
+        },
+        {
+          id:9,
+          src:"https://www.youtube.com/embed/jNZRGeIitNM",
+          title:"HTML da seção de dados do FindJob"
+        },
+        {
+          id:10,
+          src:"https://www.youtube.com/embed/eqC_wdR4Td8",
+          title:"CSS da seção de status do JobFinder"
+        },
+        {
+          id:11,
+          src:"https://www.youtube.com/embed/V_0o1eggsbo",
+          title:"HTML da seção de depoimentos"
+        },
+        {
+          id:12,
+          src:"https://www.youtube.com/embed/4osx3LzMGH4",
+          title:"seção dos depoimentos"
+        },
+        {
+          id:13,
+          src:"https://www.youtube.com/embed/wDqeg9PdiaU",
+          title:"HTML da seção do blog"
+        },
+        {
+          id:14,
+          src:"https://www.youtube.com/embed/CwBlZxDfEYw",
+          title:"CSS da seção do blog"
+        },
+        {
+          id:15,
+          src:"https://www.youtube.com/embed/QTcz4RjB3k4",
+          title:"criando o HTML do footer"
+        },
+        {
+          id:16,
+          src:"https://www.youtube.com/embed/s5F1konHl4w",
+          title:"CSS do footer"
+        },
+        {
+          id:17,
+          src:"https://www.youtube.com/embed/pt1ztJcHoFQ",
+          title:"Deixando a resolução de 1024px responsiva"
+        },
+        {
+          id:18,
+          src:"https://www.youtube.com/embed/PjRNiCtvNG4",
+          title:"Deixando o projeto responsivo para tablets"
+        },
+        {
+          id:19,
+          src:"https://www.youtube.com/embed/Z14bK5yEzY8",
+          title:"Iniciando as configurações para responsividade mobile"
+        },
+        {
+          id:20,
+          src:"https://www.youtube.com/embed/cL_PzREXx3Q",
+          title:"Deixando a barra de navegação responsiva"
+        },
+        {
+          id:21,
+          src:"https://www.youtube.com/embed/I4r2QNrCFHc",
+          title:"Responsivo para celular parte 1"
+        },
+        {
+          id:22,
+          src:"https://www.youtube.com/embed/Yci4VSGlwos",
+          title:"Responsivo para celular parte 2"
+        },
+        {
+          id:23,
+          src:"https://www.youtube.com/embed/z2mSUxSxKrA",
+          title:"HTML da página de encontrar vagas"
+        },
+        {
+          id:24,
+          src:"https://www.youtube.com/embed/66s70GzTKqM",
+          title:"CSS da página de encontrar vagas"
+        },
+        {
+          id:25,
+          src:"https://www.youtube.com/embed/jHrAkoQN3_c",
+          title:"Página de encontrar vagas responsiva"
+        },
+        {
+          id:26,
+          src:"https://www.youtube.com/embed/l7fLtkyh-6A",
+          title:"HTML da página de enviar vagas"
+        },
+        {
+          id:27,
+          src:"https://www.youtube.com/embed/YaHlspAGcOI",
+          title:"CSS da página de enviar vagas"
+        },
+        {
+          id:28,
+          src:"https://www.youtube.com/embed/dLq-yaj1l1g",
+          title:"Deixando a página de enviar vagas responsiva"
+        },
+        {
+          id:29,
+          src:"https://www.youtube.com/embed/6B7eujiIEKw",
+          title:"Criando a página da vaga"
+        },
+        {
+          id:30,
+          src:"https://www.youtube.com/embed/iKFI9t-4TP4",
+          title:"CSS da página de emprego parte 1"
+        },
+        {
+          id:31,
+          src:"https://www.youtube.com/embed/c2WX9iwxqBk",
+          title:"CSS da página de emprego parte 2"
+        },
+        {
+          id:32,
+          src:"https://www.youtube.com/embed/-5Ga2DD0qpg",
+          title:"deixando a página de emprego responsiva"
+        },
+      ]
+  },
+  {
+    id:6,
+    curso:"html-css-thiago-medeiros",
+    title: "Curso de HTML e CSS - Thiago Medeiros",
+    aulas:[
+      {
+        id:1,
+        src:"https://www.youtube.com/embed/ixpWRJYs1IM",
+        title:"Aula 1 - Instalação do VS Code"
+      },
+      {
+        id:2,
+        src:"https://www.youtube.com/embed/r8KrgTWVKYQ",
+        title:"Aula 2 - O que são Tags HTML"
+      },
+      {
+        id:3,
+        src:"https://www.youtube.com/embed/0J90aP_uZwU",
+        title:"Aula 3 - Estrutura de um Documento HTML"
+      },
+      {
+        id:4,
+        src:"https://www.youtube.com/embed/O3i60TlKCes",
+        title:"Aula 4 - Indentação de Código"
+      },
+      {
+        id:5,
+        src:"https://www.youtube.com/embed/1F8EdLPy1-g",
+        title:"Aula 5 - Instalando o Live Server no VS Code"
+      },
+      {
+        id:6,
+        src:"https://www.youtube.com/embed/8o_b6b70w6M",
+        title:"Aula 6 - Títulos e Parágrafos "
+      },
+      {
+        id:7,
+        src:"https://www.youtube.com/embed/Z9I9SriOKwU",
+        title:"Aula 7 - Formatação de Text"
+      },
+      {
+        id:8,
+        src:"https://www.youtube.com/embed/216NUHq-cfg",
+        title:"Aula 8 - Imagens, Links, e Listas"
+      },
+      {
+        id:9,
+        src:"https://www.youtube.com/embed/XX8YH8NAtYY",
+        title:"Aula 9 - Navegação entre Páginas"
+      },
+      {
+        id:10,
+        src:"https://www.youtube.com/embed/oSJgsGbmK4c",
+        title:"Aula 01 - CSS interno, externo e inline"
+      },
+      {
+        id:11,
+        src:"https://www.youtube.com/embed/ozoSk_ON6XQ",
+        title:"Aula 01 (parte 2) - Diferença entre Class e ID"
+      },
+      {
+        id:12,
+        src:"https://www.youtube.com/embed/f9y9BS8EsFw",
+        title:"Aula 2 - Sistema de Cores: HEX, RGB, RGBA"
+      },
+      {
+        id:13,
+        src:"https://www.youtube.com/embed/Mn9O_hT8qNU",
+        title:"Aula 3 - Imagens de fundo - a propriedade background-image"
+      },
+      {
+        id:14,
+        src:"https://www.youtube.com/embed/UiSnrHPP9us",
+        title:"W3Schools - Como consultar a documentação do HTML e CSS"
+      },
+      {
+        id:15,
+        src:"https://www.youtube.com/embed/zoypv8kZb_0",
+        title:"Aula 4 - Adicionando bordas em seus estilos "
+      },
+      {
+        id:16,
+        src:"https://www.youtube.com/embed/-DY8iZ5itLY",
+        title:"Aula 4 (parte 2) - Bordas arredondadas - a propriedade border-radius"
+      },
+      {
+        id:17,
+        src:"https://www.youtube.com/embed/Aywms0vdRME",
+        title:"Aula 5 - Margin - espaçamento externo"
+      },
+      {
+        id:18,
+        src:"https://www.youtube.com/embed/U1-lvrhFrUQ",
+        title:"Aula 6 - Padding - espaçamento interno"
+      },
+      {
+        id:19,
+        src:"https://www.youtube.com/embed/_g8gKTHR-cw",
+        title:"DevTools - Ferramenta para Desenvolvedores"
+      },
+      {
+        id:20,
+        src:"https://www.youtube.com/embed/ql46AV13xFU",
+        title:"Aula 7 - Box Model e Box Shadow"
+      },
+      {
+        id:21,
+        src:"https://www.youtube.com/embed/w-jp_f8lhJI",
+        title:"Aula 8 - Alterando a fonte dos textos"
+      },
+      {
+        id:22,
+        src:"https://www.youtube.com/embed/f9_wsKtiE1g",
+        title:"Aula 9 - Google Fonts - Adicionando fontes diferentes"
+      },
+      {
+        id:23,
+        src:"https://www.youtube.com/embed/mnyqms0KWuk",
+        title:"Aula 10 - Div - criando divisões no documento e caixas personalizadas"
+      },
+    ]
+},
 ]
